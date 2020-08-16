@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="AnaSınıfı" Class="AnaSınıfıDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=AnaSınıfı;User ID=sa" SettingsObjectName="AnaSınıfıProjesi__16Nisan2019.Properties.Settings" SettingsPropertyName="AnaSınıfıConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Birim" Member="Birims">
+    <Type Name="Birim">
+      <Column Name="BirimID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="BirimAdı" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Birim_Hocalar" Member="Hocalars" ThisKey="BirimID" OtherKey="BirimID" Type="Hocalar" />
+      <Association Name="Birim_Şube" Member="Şubes" ThisKey="BirimID" OtherKey="BirimID" Type="Şube" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Çocuk" Member="Çocuks">
+    <Type Name="Çocuk">
+      <Column Name="ÇocukID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TC" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Adı" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Soyadı" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Yaş" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Cinsiyet" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Çocuk_Hocalar" Member="Hocalars" ThisKey="ÇocukID" OtherKey="ÇocukID" Type="Hocalar" />
+      <Association Name="Çocuk_Ödeme" Member="Ödemes" ThisKey="ÇocukID" OtherKey="ÇocukID" Type="Ödeme" />
+      <Association Name="Çocuk_Proje" Member="Projes" ThisKey="ÇocukID" OtherKey="ÇocukID" Type="Proje" />
+      <Association Name="Çocuk_Rehberlik" Member="Rehberliks" ThisKey="ÇocukID" OtherKey="ÇocukID" Type="Rehberlik" />
+      <Association Name="Çocuk_Şube" Member="Şubes" ThisKey="ÇocukID" OtherKey="ÇocukID" Type="Şube" />
+      <Association Name="Çocuk_Veli" Member="Velis" ThisKey="ÇocukID" OtherKey="ÇocukID" Type="Veli" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Görevlendirme" Member="Görevlendirmes">
+    <Type Name="Görevlendirme">
+      <Column Name="GörevID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="GörevAdı" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="GörevYeri" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Görevlendirme_Hocalar" Member="Hocalars" ThisKey="GörevID" OtherKey="GörevID" Type="Hocalar" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Hocalar" Member="Hocalars">
+    <Type Name="Hocalar">
+      <Column Name="HocaID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="HocaAdıSoyadı" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ÇocukID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BirimID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GörevID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ŞubeID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProjeID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Birim_Hocalar" Member="Birim" ThisKey="BirimID" OtherKey="BirimID" Type="Birim" IsForeignKey="true" />
+      <Association Name="Çocuk_Hocalar" Member="Çocuk" ThisKey="ÇocukID" OtherKey="ÇocukID" Type="Çocuk" IsForeignKey="true" />
+      <Association Name="Görevlendirme_Hocalar" Member="Görevlendirme" ThisKey="GörevID" OtherKey="GörevID" Type="Görevlendirme" IsForeignKey="true" />
+      <Association Name="Proje_Hocalar" Member="Proje" ThisKey="ProjeID" OtherKey="ProjeID" Type="Proje" IsForeignKey="true" />
+      <Association Name="Şube_Hocalar" Member="Şube" ThisKey="ŞubeID" OtherKey="ŞubeID" Type="Şube" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Ödeme" Member="Ödemes">
+    <Type Name="Ödeme">
+      <Column Name="ÖdemeID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ÖdemeTipi" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="GeçerlilikDurumu" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Tutar" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ÇocukID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Ödeme_Veli" Member="Velis" ThisKey="ÖdemeID" OtherKey="ÖdemeID" Type="Veli" />
+      <Association Name="Çocuk_Ödeme" Member="Çocuk" ThisKey="ÇocukID" OtherKey="ÇocukID" Type="Çocuk" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Proje" Member="Projes">
+    <Type Name="Proje">
+      <Column Name="ProjeID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProjeAdı" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="KatıldığıŞehir" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ProjeKonusu" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ÇocukID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Proje_Hocalar" Member="Hocalars" ThisKey="ProjeID" OtherKey="ProjeID" Type="Hocalar" />
+      <Association Name="Proje_Veli" Member="Velis" ThisKey="ProjeID" OtherKey="ProjeID" Type="Veli" />
+      <Association Name="Çocuk_Proje" Member="Çocuk" ThisKey="ÇocukID" OtherKey="ÇocukID" Type="Çocuk" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Rehberlik" Member="Rehberliks">
+    <Type Name="Rehberlik">
+      <Column Name="RehberlikID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="RehberlikDurumu" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Tespit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Açıklama" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ÇocukID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Rehberlik_Veli" Member="Velis" ThisKey="RehberlikID" OtherKey="RehberlikID" Type="Veli" />
+      <Association Name="Çocuk_Rehberlik" Member="Çocuk" ThisKey="ÇocukID" OtherKey="ÇocukID" Type="Çocuk" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Şube" Member="Şubes">
+    <Type Name="Şube">
+      <Column Name="ŞubeID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ŞubeAdı" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BirimID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ÇocukID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Şube_Hocalar" Member="Hocalars" ThisKey="ŞubeID" OtherKey="ŞubeID" Type="Hocalar" />
+      <Association Name="Şube_Veli" Member="Velis" ThisKey="ŞubeID" OtherKey="ŞubeID" Type="Veli" />
+      <Association Name="Birim_Şube" Member="Birim" ThisKey="BirimID" OtherKey="BirimID" Type="Birim" IsForeignKey="true" />
+      <Association Name="Çocuk_Şube" Member="Çocuk" ThisKey="ÇocukID" OtherKey="ÇocukID" Type="Çocuk" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Veli" Member="Velis">
+    <Type Name="Veli">
+      <Column Name="VeliID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ÇocukID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ÖdemeID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProjeID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ŞubeID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RehberlikID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Çocuk_Veli" Member="Çocuk" ThisKey="ÇocukID" OtherKey="ÇocukID" Type="Çocuk" IsForeignKey="true" />
+      <Association Name="Ödeme_Veli" Member="Ödeme" ThisKey="ÖdemeID" OtherKey="ÖdemeID" Type="Ödeme" IsForeignKey="true" />
+      <Association Name="Proje_Veli" Member="Proje" ThisKey="ProjeID" OtherKey="ProjeID" Type="Proje" IsForeignKey="true" />
+      <Association Name="Rehberlik_Veli" Member="Rehberlik" ThisKey="RehberlikID" OtherKey="RehberlikID" Type="Rehberlik" IsForeignKey="true" />
+      <Association Name="Şube_Veli" Member="Şube" ThisKey="ŞubeID" OtherKey="ŞubeID" Type="Şube" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

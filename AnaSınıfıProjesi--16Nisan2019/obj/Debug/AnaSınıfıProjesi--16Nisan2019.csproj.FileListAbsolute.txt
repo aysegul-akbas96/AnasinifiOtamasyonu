@@ -1,0 +1,36 @@
+C:\Users\smart.ogrenci\Desktop\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\bin\Debug\AnaSınıfıProjesi--16Nisan2019.exe.config
+C:\Users\smart.ogrenci\Desktop\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\bin\Debug\AnaSınıfıProjesi--16Nisan2019.exe
+C:\Users\smart.ogrenci\Desktop\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\bin\Debug\AnaSınıfıProjesi--16Nisan2019.pdb
+C:\Users\smart.ogrenci\Desktop\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi--16Nisan2019.csprojResolveAssemblyReference.cache
+C:\Users\smart.ogrenci\Desktop\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.Cocuk.resources
+C:\Users\smart.ogrenci\Desktop\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.Form1.resources
+C:\Users\smart.ogrenci\Desktop\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.Properties.Resources.resources
+C:\Users\smart.ogrenci\Desktop\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi--16Nisan2019.csproj.GenerateResource.Cache
+C:\Users\smart.ogrenci\Desktop\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi--16Nisan2019.exe
+C:\Users\smart.ogrenci\Desktop\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi--16Nisan2019.pdb
+C:\Users\smart.ogrenci\Desktop\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.Görevlendirmeler.resources
+C:\Users\smart.ogrenci\Desktop\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.Birimler.resources
+C:\Users\smart.ogrenci\Desktop\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.subeler.resources
+C:\Users\smart.ogrenci\Desktop\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.Projeler.resources
+C:\Users\smart.ogrenci\Desktop\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.rhbrlk.resources
+C:\Users\smart.ogrenci\Desktop\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.Ödemeler.resources
+C:\Users\smart.ogrenci\Desktop\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.Öğretmen.resources
+C:\Users\smart.ogrenci\Desktop\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.Giriş.resources
+C:\Users\smart.ogrenci\Desktop\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.veliiiler.resources
+C:\Users\smart.ogrenci\Desktop\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.Raporlama.resources
+C:\Users\HP\Desktop\Smart Pro Kurs Çalışmalarım\Ayşegül Ders Uygulamaları\AnaSınıfıProjesi-20Nisan2019\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi--16Nisan2019.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Smart Pro Kurs Çalışmalarım\Ayşegül Ders Uygulamaları\AnaSınıfıProjesi-20Nisan2019\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.Giriş.resources
+C:\Users\HP\Desktop\Smart Pro Kurs Çalışmalarım\Ayşegül Ders Uygulamaları\AnaSınıfıProjesi-20Nisan2019\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.Projeler.resources
+C:\Users\HP\Desktop\Smart Pro Kurs Çalışmalarım\Ayşegül Ders Uygulamaları\AnaSınıfıProjesi-20Nisan2019\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.Raporlama.resources
+C:\Users\HP\Desktop\Smart Pro Kurs Çalışmalarım\Ayşegül Ders Uygulamaları\AnaSınıfıProjesi-20Nisan2019\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.rhbrlk.resources
+C:\Users\HP\Desktop\Smart Pro Kurs Çalışmalarım\Ayşegül Ders Uygulamaları\AnaSınıfıProjesi-20Nisan2019\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.subeler.resources
+C:\Users\HP\Desktop\Smart Pro Kurs Çalışmalarım\Ayşegül Ders Uygulamaları\AnaSınıfıProjesi-20Nisan2019\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.veliiiler.resources
+C:\Users\HP\Desktop\Smart Pro Kurs Çalışmalarım\Ayşegül Ders Uygulamaları\AnaSınıfıProjesi-20Nisan2019\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.Ödemeler.resources
+C:\Users\HP\Desktop\Smart Pro Kurs Çalışmalarım\Ayşegül Ders Uygulamaları\AnaSınıfıProjesi-20Nisan2019\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.Öğretmen.resources
+C:\Users\HP\Desktop\Smart Pro Kurs Çalışmalarım\Ayşegül Ders Uygulamaları\AnaSınıfıProjesi-20Nisan2019\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.Birimler.resources
+C:\Users\HP\Desktop\Smart Pro Kurs Çalışmalarım\Ayşegül Ders Uygulamaları\AnaSınıfıProjesi-20Nisan2019\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.Cocuk.resources
+C:\Users\HP\Desktop\Smart Pro Kurs Çalışmalarım\Ayşegül Ders Uygulamaları\AnaSınıfıProjesi-20Nisan2019\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.Form1.resources
+C:\Users\HP\Desktop\Smart Pro Kurs Çalışmalarım\Ayşegül Ders Uygulamaları\AnaSınıfıProjesi-20Nisan2019\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi__16Nisan2019.Görevlendirmeler.resources
+C:\Users\HP\Desktop\Smart Pro Kurs Çalışmalarım\Ayşegül Ders Uygulamaları\AnaSınıfıProjesi-20Nisan2019\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi--16Nisan2019.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Smart Pro Kurs Çalışmalarım\Ayşegül Ders Uygulamaları\AnaSınıfıProjesi-20Nisan2019\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi--16Nisan2019.exe
+C:\Users\HP\Desktop\Smart Pro Kurs Çalışmalarım\Ayşegül Ders Uygulamaları\AnaSınıfıProjesi-20Nisan2019\AnaSınıfıProjesi--16Nisan2019\AnaSınıfıProjesi--16Nisan2019\obj\Debug\AnaSınıfıProjesi--16Nisan2019.pdb

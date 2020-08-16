@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18784EB3-F14B-4703-AAE2-D0252B2669F9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AnaSınıfıProjesi__16Nisan2019</RootNamespace>
+    <AssemblyName>AnaSınıfıProjesi--16Nisan2019</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnaSınıfı.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnaSınıfı.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Birimler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Birimler.Designer.cs">
+      <DependentUpon>Birimler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cocuk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cocuk.Designer.cs">
+      <DependentUpon>Cocuk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giriş.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giriş.Designer.cs">
+      <DependentUpon>Giriş.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Görevlendirmeler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Görevlendirmeler.Designer.cs">
+      <DependentUpon>Görevlendirmeler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Projeler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Projeler.Designer.cs">
+      <DependentUpon>Projeler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Raporlama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Raporlama.Designer.cs">
+      <DependentUpon>Raporlama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rhbrlk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rhbrlk.Designer.cs">
+      <DependentUpon>rhbrlk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="subeler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="subeler.Designer.cs">
+      <DependentUpon>subeler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="veliiiler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="veliiiler.Designer.cs">
+      <DependentUpon>veliiiler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ödemeler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ödemeler.Designer.cs">
+      <DependentUpon>Ödemeler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Öğretmen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Öğretmen.Designer.cs">
+      <DependentUpon>Öğretmen.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Giriş.resx">
+      <DependentUpon>Giriş.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Projeler.resx">
+      <DependentUpon>Projeler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Raporlama.resx">
+      <DependentUpon>Raporlama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rhbrlk.resx">
+      <DependentUpon>rhbrlk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="subeler.resx">
+      <DependentUpon>subeler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="veliiiler.resx">
+      <DependentUpon>veliiiler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ödemeler.resx">
+      <DependentUpon>Ödemeler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Öğretmen.resx">
+      <DependentUpon>Öğretmen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="AnaSınıfı.dbml.layout">
+      <DependentUpon>AnaSınıfı.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Birimler.resx">
+      <DependentUpon>Birimler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cocuk.resx">
+      <DependentUpon>Cocuk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Görevlendirmeler.resx">
+      <DependentUpon>Görevlendirmeler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="AnaSınıfı.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>AnaSınıfı.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10224-woman-teacher-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\happy-children-play-icon-vector-13750291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27594-7-cute-kids-transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_144032433-stock-illustration-community-people-success-logo-and.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6608-b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rehberlik1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\49282738-dollar-sign-icon-usd-currency-symbol.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51bVArubZVL.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\powerpoint-presentation-hd-desktop-wallpaper-baltana-of-wallpaper-presentation-powerpoint.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\happy-children-play-icon-vector-137502911.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6657b9a240d3d1f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arama.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\geri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kaydet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\güncelle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\listele.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\güncelle1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7759aa09b9287ff.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51bVArubZVL1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\workplace-2303849__340.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
